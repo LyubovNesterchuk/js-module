@@ -16,3 +16,5 @@ function fizzBuzz(num) {
         }
     }
 }
+
+console.log(fizzBuzz(345));

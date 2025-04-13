@@ -17,3 +17,5 @@ function getNumbers(min, max) {
     return sum;
 }
 
+
+console.log(getNumbers(4, 45));

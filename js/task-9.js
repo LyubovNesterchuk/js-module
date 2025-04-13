@@ -14,3 +14,5 @@ function isAdult(age) {
         return confirm('Вам менше 18. Ви впевнені, що хочете продовжити?');
     }
 }
+
+console.log(isAdult(6));
