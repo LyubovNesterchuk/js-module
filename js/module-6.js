@@ -1,26 +1,26 @@
 
 
-const pizzaPalace = {
-  pizzas: ["Supercheese", "Smoked", "Four meats"],
+// const pizzaPalace = {
+//   pizzas: ["Supercheese", "Smoked", "Four meats"],
   
-  checkPizza(pizzaName) {
-    return this.pizzas.includes(pizzaName);
-  },
+//   checkPizza(pizzaName) {
+//     return this.pizzas.includes(pizzaName);
+//   },
   
-  order(pizzaName) {
-    const isPizzaAvailable = this.checkPizza(pizzaName);
+//   order(pizzaName) {
+//     const isPizzaAvailable = this.checkPizza(pizzaName);
 
-    if (!isPizzaAvailable) {
-      return `Sorry, there is no pizza named «${pizzaName}»`;
-    }
+//     if (!isPizzaAvailable) {
+//       return `Sorry, there is no pizza named «${pizzaName}»`;
+//     }
 
-    return `Order accepted, preparing «${pizzaName}» pizza`;
-    },
-};
+//     return `Order accepted, preparing «${pizzaName}» pizza`;
+//     },
+// };
 
-console.log(pizzaPalace.checkPizza("Smoked"));
-console.log(pizzaPalace.order("Smoked"));
-console.log(pizzaPalace.order("Margarita"));
+// console.log(pizzaPalace.checkPizza("Smoked"));
+// console.log(pizzaPalace.order("Smoked"));
+// console.log(pizzaPalace.order("Margarita"));
 
 // // --------------------------------------------------------------------------
 
